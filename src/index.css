@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.pokemon-card {
+  transition: all 2s ease-in-out;
+}
+
+.pokemon-card:hover {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px !important;
+  transform: scale(1.1)
+}
